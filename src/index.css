@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela+Round&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root,
+  body {
+    box-sizing: border-box;
+    @apply text-text h-full w-full;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply body-1 overflow-x-hidden;
+  }
+}
+
+@layer components {
+  .heading-0 {
+    @apply text-[180px] font-normal leading-[120px];
+  }
+  .heading-1 {
+    @apply text-[5rem] font-normal leading-[3.5rem];
+  }
+
+  .heading-2 {
+    @apply text-[3.5rem] font-normal leading-[3.5rem];
+  }
+
+  .heading-3 {
+    @apply text-[2.75rem] font-normal leading-[3.5rem];
+  }
+
+  .heading-4 {
+    @apply text-[2rem] font-normal leading-[2.5rem];
+  }
+
+  .heading-5 {
+    @apply text-2xl font-normal;
+  }
+
+  .heading-6 {
+    @apply text-xl font-normal;
+  }
+
+  .heading-7 {
+    @apply text-[6.25rem] font-normal leading-[4.25rem];
+  }
+
+  .heading-8 {
+    @apply text-[2rem] font-semibold leading-[2.5rem];
+  }
+
+  .heading-9 {
+    @apply text-[2rem] font-normal leading-[2.5rem];
+  }
+
+  .body-1 {
+    @apply text-[16px] leading-[26px];
+  }
+
+  .body-2 {
+    @apply text-lg leading-[1.500rem];
+  }
+  .body-3 {
+    @apply text-base;
+  }
+
+  .body-4 {
+    @apply text-[2rem] font-medium leading-[3.5rem];
+  }
+
+  .caption-1 {
+    @apply text-sm;
+  }
+
+  .caption-2 {
+    @apply text-xs;
+  }
+
+  .caption-3 {
+    @apply text-xs uppercase leading-[1.25rem] tracking-[0.075rem];
+  }
+
+  .caption-4 {
+    @apply text-base font-medium;
+  }
+
+  .caption-5 {
+    @apply text-[0.625rem] leading-[0.875rem];
+  }
+
+  .big {
+    @apply text-base font-bold;
+  }
+
+  .small {
+    @apply text-sm font-bold;
+  }
+  .label {
+    @apply text-[12px] font-bold leading-[1.25rem];
+  }
+
+  .button {
+    @apply text-base font-normal;
+  }
+
+  .font-outline-black-1 {
+    -webkit-text-stroke: 1px black;
+  }
+  .font-outline-black-2 {
+    -webkit-text-stroke: 2px black;
+  }
+  .font-outline-yellow {
+    -webkit-text-stroke: 2px yellowgreen;
+  }
+  .font-outline-black-3 {
+    -webkit-text-stroke: 3px black;
+  }
+
+  ::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-line;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #d6dbe2;
+    @apply rounded-full;
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.loading {
+  border: 3px solid hsla(185, 100%, 62%, 0.2);
+  border-top-color: #3cefff;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  animation: spin 1s linear infinite;
+  width: 20px;
+  height: 20px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

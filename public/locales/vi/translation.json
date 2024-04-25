@@ -1,0 +1,115 @@
+{
+  "navbar": {
+    "home": "Trang chủ",
+    "tour": "Du lịch",
+    "news": "Tin tức",
+    "service": "Dịch vụ",
+    "aboutUs": "Về chúng tôi",
+    "contact": "Phản hồi",
+    "muiNe": "Mũi Né",
+    "bauTrang": "Bàu Trắng",
+    "honCauIsland": "Đảo Hòn Cau",
+    "sealink": "Sealink",
+    "drivers": "Tài xế",
+    "tourGuide": "Hướng dẫn viên du lịch",
+    "career": "Nghề nghiệp",
+    "realEstate": "Bất động sản",
+    "traffic": "Giao thông",
+    "search": "Tìm kiếm",
+    "info": "Thông tin"
+  },
+  "main": {
+    "appName": "BìnhAnBT",
+    "seeMore": "Xem thêm",
+    "empty": "Chưa có bài viết nào!"
+  },
+  "footer": {
+    "des": "Bình An BT là dự án khởi nghiệp mới cung cấp dịch vụ giao thông thông minh, các tour du lịch khám phá thiên nhiên, sản phẩm du lịch địa phương.",
+    "media": "Mạng xã hội",
+    "feedback": "Liên hệ"
+  },
+  "landing": {
+    "banner": {
+      "title": "Sẵn sàng cho cuộc phiêu lưu tiếp theo của bạn !",
+      "contact": "Liên hệ với chúng tôi"
+    },
+    "tour": {
+      "title": "Các địa điểm du lịch nổi tiếng tại Bình Thuận",
+      "des": "Đi với người thân, vừa vui vừa thích"
+    },
+    "service": {
+      "title": "Các dịch vụ của chúng tôi",
+      "career": "Việc làm tại Phan Thiết - Bình Thuận",
+      "tourGuide": "Hướng dẫn viên du lịch tự do",
+      "driver": "Tài xế lái xe",
+      "des1": "Nhậu say, call ngay +84 867 046 286",
+      "des2": "Hãy để chúng tôi, đồng hành cùng bạn trong mọi chuyến đi",
+      "des3": "Còn chần chừ gì nữa, tìm việc ngay thôi nào"
+    },
+    "news": {
+      "title": "Tin tức Bình Thuận",
+      "des": "Giao thông, bất động sản, thời sự trong ngày.",
+      "news": "Thời sự trong ngày"
+    }
+  },
+  "contactForm": {
+    "success": "Gửi thành công!",
+    "fail": "Gửi thất bại!",
+    "info": "Nhập thông tin",
+    "name": "Nhập tên",
+    "email": "Nhập email",
+    "phone": "Nhập số điện thoại",
+    "ques": "Nhập câu hỏi",
+    "send": "Gửi"
+  },
+  "about": {
+    "pageName": "Về chúng tôi",
+    "title": "Thông tin về chúng tôi !",
+    "des1": "là một công ty start-up đa dịch vụ, chuyên cung cấp ba dịch vụ chính là thuê tài xế lái xe và nền tảng tìm kiếm việc làm và giới thiệu các điểm du lịch. Với đội ngũ nhân viên giàu kinh nghiệm và sự đam mê với ngành du lịch, chúng tôi cam kết mang lại những giải pháp tiện ích và hiệu quả cho cả khách hàng và đối tác.",
+    "des2": "Dịch vụ thuê tài xế lái xe của chúng tôi được thiết kế để đáp ứng mọi nhu cầu di chuyển của khách hàng. Không chỉ là việc cung cấp một tài xế chuyên nghiệp và tin cậy, chúng tôi còn đảm bảo rằng luôn đáp ứng các tiêu chuẩn an toàn và thoải mái nhất. Khách hàng có thể dễ dàng đặt lịch trực tuyến và tận hưởng dịch vụ tiện lợi mà chúng tôi mang lại.",
+    "des3": "Chúng tôi cũng là một nguồn thông tin đáng tin cậy về các điểm du lịch hàng đầu tại Bình Thuận. Chúng tôi cung cấp thông tin chi tiết về các địa điểm du lịch nổi tiếng, những điểm đến mới lạ và các hoạt động thú vị mà du khách có thể tham gia khi đến các điểm đó.",
+    "des4": "Ngoài ra, nền tảng tìm kiếm việc làm của chúng tôi cung cấp cơ hội cho những người muốn tìm kiếm việc làm.",
+    "des5": "Với sứ mệnh tạo ra những trải nghiệm du lịch đáng nhớ và cung cấp các giải pháp tiện ích cho cộng đồng du lịch, chúng tôi hy vọng có thể đóng góp vào sự phát triển bền vững của ngành du lịch tại Bình Thuận và Việt Nam."
+  },
+  "search": "Kết quả tìm kiếm cho: ",
+  "news": {
+    "pageName": "Tin tức",
+    "title": "Các tin tức tại Bình Thuận !"
+  },
+  "realEstate": {
+    "pageName": "Bất động sản",
+    "title": "Các tin tức Bất động sản !"
+  },
+  "traffic": {
+    "pageName": "Giao thông",
+    "title": "Các tin tức giao thông !"
+  },
+  "career": {
+    "pageName": "Việc làm",
+    "title": "Việc làm tại Phan Thiết"
+  },
+  "driver": {
+    "pageName": "Tài xế",
+    "title": "Tài xế lái xe"
+  },
+  "tourGuide": {
+    "pageName": "Hướng dẫn viên",
+    "title": "Hướng dẫn viên du lịch tự do"
+  },
+  "muiNe": {
+    "pageName": "Mũi Né",
+    "title": "Các điểm đến tại Mũi Né!"
+  },
+  "bauTrang": {
+    "pageName": "Bàu Trắng",
+    "title": "Các điểm đến tại Bàu Trắng!"
+  },
+  "honCau": {
+    "pageName": "Đảo Hòn Cau",
+    "title": "Các điểm đến tại đảo Hòn Cau!"
+  },
+  "sealink": {
+    "pageName": "Sealink",
+    "title": "Điểm đến Sealink!"
+  }
+}

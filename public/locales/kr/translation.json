@@ -1,0 +1,115 @@
+{
+  "navbar": {
+    "home": "Home",
+    "tour": "Tour",
+    "service": "Service",
+    "news": "News",
+    "aboutUs": "About Us",
+    "contact": "Contact Us",
+    "muiNe": "Mui Ne",
+    "bauTrang": "Bau Trang",
+    "honCauIsland": "Hon Cau Island",
+    "sealink": "Sealink",
+    "drivers": "Driver",
+    "tourGuide": "Tour Guide",
+    "career": "Career",
+    "realEstate": "Real Estate",
+    "traffic": "Traffic",
+    "search": "Search",
+    "info": "Infomation"
+  },
+  "main": {
+    "appName": "BinhAnBT",
+    "seeMore": "See more",
+    "empty": "Data Empty"
+  },
+  "footer": {
+    "des": "Binh An BT is a new startup project providing smart transportation services, nature discovery tours, and local tourism products.",
+    "media": "Social Media",
+    "feedback": "Feedback"
+  },
+  "landing": {
+    "banner": {
+      "title": "Get ready for your next adventure !",
+      "contact": "Contact with us"
+    },
+    "tour": {
+      "title": "Famous tourist destinations in Binh Thuan",
+      "des": "Going with relatives is both fun and enjoyable."
+    },
+    "service": {
+      "title": "Ours Service",
+      "career": "Jobs in Phan Thiet - Binh Thuan",
+      "tourGuide": "Freelance tour guide",
+      "driver": "Drivers",
+      "des1": "If you are drunk, please call +84 867 046 286 ",
+      "des2": "Let us accompany you on every trip",
+      "des3": "Don't hesitate any longer, find a job now"
+    },
+    "news": {
+      "title": "Binh Thuan News",
+      "des": "Traffic, real estate, day news.",
+      "news": "Day news"
+    }
+  },
+  "contactForm": {
+    "success": "Send success!",
+    "fail": "Send failure!",
+    "info": "Enter your information",
+    "name": "Enter your name",
+    "email": "Enter your email",
+    "phone": "Enter your phone number",
+    "ques": "Enter your questions",
+    "send": "Send"
+  },
+  "about": {
+    "pageName": "About Us",
+    "title": "Our Information !",
+    "des1": "is a multi-service startup company, specializing in providing three main services: hiring driver services, job search platform, and tourism destination introduction. With a team of experienced staff and passion for the tourism industry, we are committed to providing convenient and effective solutions for both customers and partners.",
+    "des2": "Our driver hiring service is designed to meet all customer transportation needs. Not only providing a professional and reliable driver, we also ensure to always meet the highest safety and comfort standards. Customers can easily book online and enjoy the convenient services we provide.",
+    "des3": "We are also a reliable source of information on top tourist destinations in Binh Thuan. We provide detailed information on famous tourist attractions, new destinations, and exciting activities that tourists can participate in when visiting these places.",
+    "des4": "In addition, our job search platform provides opportunities for those seeking employment.",
+    "des5": "With the mission of creating memorable travel experiences and providing convenient solutions for the tourism community, we hope to contribute to the sustainable development of the tourism industry in Binh Thuan and Vietnam."
+  },
+  "search": "Search results for: ",
+  "news": {
+    "pageName": "News",
+    "title": "Binh Thuan News"
+  },
+  "realEstate": {
+    "pageName": "Real Estate",
+    "title": "Real Estate news !"
+  },
+  "traffic": {
+    "pageName": "Traffic",
+    "title": "Traffic news !"
+  },
+  "career": {
+    "pageName": "Career",
+    "title": "Job in Phan Thiet"
+  },
+  "driver": {
+    "pageName": "Driver",
+    "title": "Driver in Phan Thiet - Binh Thuan"
+  },
+  "tourGuide": {
+    "pageName": "Tour Guide",
+    "title": "Freelancer Tour Guide"
+  },
+  "muiNe": {
+    "pageName": "Mui Ne",
+    "title": "Destinations in Mui Ne!"
+  },
+  "bauTrang": {
+    "pageName": "Bau Trang",
+    "title": "Destinations in Bau Trang!"
+  },
+  "honCau": {
+    "pageName": "Hon Cau Island",
+    "title": "Destinations in Hon Cau Island!"
+  },
+  "sealink": {
+    "pageName": "Sealink",
+    "title": "Destinations in Sealink!"
+  }
+}
