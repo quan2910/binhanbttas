@@ -92,6 +92,7 @@ const EditBlog = ({ id }) => {
     const compressedData = JSON.stringify(
       pako.deflate(JSON.stringify(convertData.content))
     );
+    console.log(convertData);
 
     convertData.content = compressedData;
     setIsLoading(true);
@@ -106,7 +107,11 @@ const EditBlog = ({ id }) => {
     form.watch("type") === "963055416245944321" ||
     form.watch("type") === "963055738547077121" ||
     form.watch("type") === "963059320211996673" ||
-    form.watch("type") === "963060231356088321";
+    form.watch("type") === "963060231356088321" ||
+    data.type?.id === "963055416245944321" ||
+    data.type?.id === "963055738547077121" ||
+    data.type?.id === "963059320211996673" ||
+    data.type?.id === "963060231356088321";
 
   return (
     <div className="max-h-[100vh] w-[1300px] overflow-y-auto">
@@ -120,7 +125,7 @@ const EditBlog = ({ id }) => {
         >
           <div className="w-full rounded-[20px] bg-bg p-8 flex flex-col gap-3">
             <h4 className="heading-4 font-bold text-secondary mb-5">
-              Tạo bài viết mới
+              Sửa bài viết
             </h4>
             <FormField
               name="title"
@@ -134,7 +139,7 @@ const EditBlog = ({ id }) => {
                         <span className="text-red">*</span>
                       </h2>
                       <Input
-                        defaultValue={form.value}
+                        defaultValue={data.title}
                         placeholder="Nhập Tiêu đề bài viết"
                         onChange={(value) => field.onChange(value)}
                         className="w-full bg-white"
@@ -156,6 +161,7 @@ const EditBlog = ({ id }) => {
                         Nhập mô tả bài viết <span className="text-red">*</span>
                       </h2>
                       <Input
+                        defaultValue={data.description}
                         placeholder="Nhập mô tả"
                         onChange={(value) => field.onChange(value)}
                         className="w-full bg-white"
@@ -176,7 +182,10 @@ const EditBlog = ({ id }) => {
                       <h2 className="small xl:big">
                         Thêm ảnh bìa <span className="text-red">*</span>
                       </h2>
-                      <InputImg onChange={field.onChange} />
+                      <InputImg
+                        imgSrc={data?.image}
+                        onChange={field.onChange}
+                      />
                     </>
                   </FormControl>
                   <FormMessage />
@@ -193,18 +202,23 @@ const EditBlog = ({ id }) => {
                       <h2 className="small xl:big">
                         Chọn loại bài viết <span className="text-red">*</span>
                       </h2>
-                      <Select onValueChange={(value) => field.onChange(value)}>
-                        <SelectTrigger className="rounded-full">
-                          <SelectValue placeholder="Chọn loại bài viết" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          {types.map((item) => (
-                            <SelectItem key={item.id} value={item.id}>
-                              {item.name}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
+                      {data.type && (
+                        <Select
+                          defaultValue={data.type.id}
+                          onValueChange={(value) => field.onChange(value)}
+                        >
+                          <SelectTrigger className="rounded-full">
+                            <SelectValue placeholder="Chọn loại bài viết" />
+                          </SelectTrigger>
+                          <SelectContent>
+                            {types.map((item) => (
+                              <SelectItem key={item.id} value={item.id}>
+                                {item.name}
+                              </SelectItem>
+                            ))}
+                          </SelectContent>
+                        </Select>
+                      )}
                     </>
                   </FormControl>
                   <FormMessage />
@@ -221,6 +235,7 @@ const EditBlog = ({ id }) => {
                       <>
                         <h2 className="small xl:big">Nhập Giá (VND)</h2>
                         <Input
+                          defaultValue={data.price}
                           type="number"
                           placeholder="Nhập giá"
                           onChange={(value) => field.onChange(value)}
@@ -245,6 +260,7 @@ const EditBlog = ({ id }) => {
                         Nhập nội dung <span className="text-red">*</span>
                       </h2>
                       <Editor
+                        defaultValue={data.content}
                         containerClass="h-[243px]"
                         className="h-[200px]"
                         onChange={(value) => field.onChange(value)}

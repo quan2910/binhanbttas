@@ -33,7 +33,7 @@ const formSchema = z.object({
   image: z.string({ required_error: "Vui lòng thêm ảnh" }),
   content: z.any(),
   type: z.string({ required_error: "Vui lòng chọn loại bài viết" }),
-  price: z.string(),
+  price: z.string().optional(),
   timeAt: z.any(),
 });
 
