@@ -3,7 +3,6 @@ import Cookies from "js-cookie";
 import { Route, Routes } from "react-router-dom";
 import Landing from "./page/Landing";
 import Layout from "./page/Layout";
-import Tours from "./page/Tours/sealink";
 import News from "./page/News/News";
 import Traffic from "./page/News/Traffic";
 import RealEstate from "./page/News/RealEstate";
@@ -24,6 +23,13 @@ import Sealink from "./page/Tours/sealink";
 import MuiNe from "./page/Tours/muiNe";
 import BauTrang from "./page/Tours/bauTrang";
 import HonCauIsland from "./page/Tours/honCauIsland";
+import Resort from "./page/Service/resort";
+import Homestay from "./page/Service/homestay";
+import Villa from "./page/Service/villa";
+import Hotel from "./page/Service/hotel";
+import KeGaCape from "./page/Tours/kegaCape";
+import Centara from "./page/Tours/centara";
+import Novaworld from "./page/Tours/novaworld";
 
 function App() {
   const token = Cookies.get("token");
@@ -41,6 +47,13 @@ function App() {
         <Route path="honcauisland" element={<HonCauIsland />} />
         <Route path="results" element={<Search />} />
         <Route path="news" element={<News />} />
+        <Route path="resort" element={<Resort />} />
+        <Route path="homestay" element={<Homestay />} />
+        <Route path="villa" element={<Villa />} />
+        <Route path="hotel" element={<Hotel />} />
+        <Route path="novaworld" element={<Novaworld />} />
+        <Route path="centara" element={<Centara />} />
+        <Route path="ke-ga-cape" element={<KeGaCape />} />
         <Route path="traffic" element={<Traffic />} />
         <Route path="real-estate" element={<RealEstate />} />
         <Route path="about-us" element={<AboutUs />} />

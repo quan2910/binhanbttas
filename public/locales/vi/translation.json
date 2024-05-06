@@ -42,9 +42,17 @@
       "career": "Việc làm tại Phan Thiết - Bình Thuận",
       "tourGuide": "Hướng dẫn viên du lịch tự do",
       "driver": "Tài xế lái xe",
+      "villa": "Villa",
+      "homestay": "Homestay",
+      "resort": "Resort",
+      "hotel": "Khách sạn",
       "des1": "Nhậu say, call ngay +84 867 046 286",
       "des2": "Hãy để chúng tôi, đồng hành cùng bạn trong mọi chuyến đi",
-      "des3": "Còn chần chừ gì nữa, tìm việc ngay thôi nào"
+      "des3": "Còn chần chừ gì nữa, tìm việc ngay thôi nào",
+      "des4": "Villa đẹp ở Bình Thuận",
+      "des5": "Homestay đẹp ở Bình Thuận",
+      "des6": "Khách sạn đẹp ở Bình Thuận",
+      "des7": "Resort đẹp ở Bình Thuận"
     },
     "news": {
       "title": "Tin tức Bình Thuận",
@@ -111,5 +119,33 @@
   "sealink": {
     "pageName": "Sealink",
     "title": "Điểm đến Sealink!"
+  },
+  "keGaCape": {
+    "pageName": "Mũi Kê Gà",
+    "title": "Các điểm đến tại Mũi Kê Gà!"
+  },
+  "novaworld": {
+    "pageName": "Novaworld phan thiết",
+    "title": "Các villa được yêu thích Novaworld phan thiết!"
+  },
+  "centara": {
+    "pageName": "Centara Mirage Resort Mũi Né",
+    "title": "Centara Mirage Resort Mũi Né!"
+  },
+  "homestay": {
+    "pageName": "HomeStay",
+    "title": "HomeStay tại Phan Thiết!"
+  },
+  "villa": {
+    "pageName": "Villa",
+    "title": "Villa tại Phan Thiết!"
+  },
+  "resort": {
+    "pageName": "Resort",
+    "title": "Resort tại Phan Thiết!"
+  },
+  "hotel": {
+    "pageName": "Khách sạn",
+    "title": "Hotel tại Phan Thiết!"
   }
 }

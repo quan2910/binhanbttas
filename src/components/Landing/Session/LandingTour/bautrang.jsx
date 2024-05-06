@@ -56,7 +56,7 @@ const BauTrangLanding = () => {
                     className="md:basis-1/2 lg:basis-1/4"
                   >
                     <LandingTourItem
-                      // price={item.price}
+                      price={item.price}
                       image={item.image}
                       title={item.title}
                       description={item.description}

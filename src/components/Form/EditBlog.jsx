@@ -61,15 +61,11 @@ const EditBlog = ({ id }) => {
           })
         );
         res.data.content = decompressedData;
-        console.log(typeof res.data.content);
-        console.log(1212, res.data.content.toString());
         setData(res.data);
       }
     };
     getBlog();
   }, [id]);
-
-  console.log(data);
 
   const form = useForm({
     resolver: zodResolver(formSchema),
@@ -92,7 +88,6 @@ const EditBlog = ({ id }) => {
     const compressedData = JSON.stringify(
       pako.deflate(JSON.stringify(convertData.content))
     );
-    console.log(convertData);
 
     convertData.content = compressedData;
     setIsLoading(true);
@@ -108,6 +103,12 @@ const EditBlog = ({ id }) => {
     form.watch("type") === "963055738547077121" ||
     form.watch("type") === "963059320211996673" ||
     form.watch("type") === "963060231356088321" ||
+    form.watch("type") === "966397183073976321" ||
+    form.watch("type") === "966397159192330241" ||
+    form.watch("type") === "966397118755930113" ||
+    data.type?.id === "966397183073976321" ||
+    data.type?.id === "966397159192330241" ||
+    data.type?.id === "966397118755930113" ||
     data.type?.id === "963055416245944321" ||
     data.type?.id === "963055738547077121" ||
     data.type?.id === "963059320211996673" ||

@@ -82,6 +82,9 @@ const AdminHome = () => {
     form.watch("type") === "963055416245944321" ||
     form.watch("type") === "963055738547077121" ||
     form.watch("type") === "963059320211996673" ||
+    form.watch("type") === "966397183073976321" ||
+    form.watch("type") === "966397159192330241" ||
+    form.watch("type") === "966397118755930113" ||
     form.watch("type") === "963060231356088321";
 
   return (

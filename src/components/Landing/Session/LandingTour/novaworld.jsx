@@ -5,13 +5,13 @@ import { useQuery } from "@tanstack/react-query";
 import { handleGetBlogs } from "../../../../services/blogs/blogs.service";
 import LandingLoading from "../../Comps/LandingLoading";
 import EmptyData from "../../../EmptyData";
-const HonCauIslandLanding = () => {
+const NovaLanding = () => {
   const { data, isLoading } = useQuery({
-    queryKey: ["HonCauIsland"],
+    queryKey: ["NovaLanding"],
     queryFn: async () => {
       const res = await handleGetBlogs({
         params: {
-          typeId: "963060231356088321",
+          typeId: "966397159192330241",
         },
       });
       if (res) {
@@ -76,4 +76,4 @@ const HonCauIslandLanding = () => {
   return <>{content}</>;
 };
 
-export default HonCauIslandLanding;
+export default NovaLanding;

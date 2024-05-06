@@ -13,17 +13,31 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "../components/ui/popover";
+import { format } from "date-fns";
 import zl from "../images/footer-img/zalo.png";
 import qrzl from "../images/footer-img/qrzalo.jpg";
 import { motion } from "framer-motion";
 import { useLocation } from "react-router-dom";
 import { handleGetBlog } from "../services/blogs/blogs.service";
-import { formatTime } from "../utils";
 
 const BlogDetails = () => {
   const [data, setData] = useState({});
   const location = useLocation();
   const id = location.pathname.replace("/", "");
+
+  useEffect(() => {
+    const toggleVisible = () => {
+      return document.documentElement.scrollTop;
+    };
+    window.addEventListener("scroll", toggleVisible);
+    const scrollToTop = () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    };
+    scrollToTop();
+  }, []);
 
   useEffect(() => {
     const getBlog = async () => {
@@ -35,8 +49,6 @@ const BlogDetails = () => {
           })
         );
         res.data.content = decompressedData;
-        console.log(typeof res.data.content);
-        console.log(1212, res.data.content.toString());
         setData(res.data);
       } else {
         <Navigate to="*" replace />;
@@ -44,8 +56,6 @@ const BlogDetails = () => {
     };
     getBlog();
   }, [id]);
-
-  console.log(data);
 
   return (
     <>
@@ -83,8 +93,8 @@ const BlogDetails = () => {
           <h2 className="heading-6 md:heading-3 !font-bold xl:leading-[60px] text-secondary font-mont">
             {data.title}
           </h2>
-          {/* <p>{formatTime(data.timeAt.toString())}</p> */}
-          <img src={data.image} alt="" className="max-w-full" />
+          {data.timeAt && <p>{format(data.timeAt, "MM/dd/yyyy")}</p>}
+          <img src={data.image} alt="" className="max-w-full rounded-2xl" />
         </div>
         <div className="relative z-[1] pt-3 xl:pt-8 flex flex-col gap-3 xl:gap-8">
           <p className="big">{data.description}</p>

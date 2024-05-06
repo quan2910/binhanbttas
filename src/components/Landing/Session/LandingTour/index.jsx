@@ -37,6 +37,22 @@ const LandingTour = () => {
         <SectionHeader href="/sealink">{t("navbar.sealink")}</SectionHeader>{" "}
         <SealinkLanding />
       </div>
+      <div className="flex flex-col gap-3 md:gap-5">
+        <SectionHeader href="/ke-ga-cape">
+          {t("keGaCape.pageName")}
+        </SectionHeader>{" "}
+        <SealinkLanding />
+      </div>
+      <div className="flex flex-col gap-3 md:gap-5">
+        <SectionHeader href="/novaworld">
+          {t("novaworld.pageName")}
+        </SectionHeader>{" "}
+        <SealinkLanding />
+      </div>
+      <div className="flex flex-col gap-3 md:gap-5">
+        <SectionHeader href="/centara">{t("centara.pageName")}</SectionHeader>{" "}
+        <SealinkLanding />
+      </div>
     </SectionLayout>
   );
 };

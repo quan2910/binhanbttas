@@ -27,8 +27,6 @@ const Search = () => {
     },
   });
 
-  console.log(data);
-
   let content;
 
   if (isLoading) {

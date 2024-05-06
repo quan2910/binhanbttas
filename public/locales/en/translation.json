@@ -42,9 +42,17 @@
       "career": "Jobs in Phan Thiet - Binh Thuan",
       "tourGuide": "Freelance tour guide",
       "driver": "Drivers",
+      "villa": "Villa",
+      "homestay": "Homestay",
+      "resort": "Resort",
+      "hotel": "Hotel",
       "des1": "If you are drunk, please call +84 867 046 286 ",
       "des2": "Let us accompany you on every trip",
-      "des3": "Don't hesitate any longer, find a job now"
+      "des3": "Don't hesitate any longer, find a job now",
+      "des4": "Villa in Binh Thuan",
+      "des5": "Homestay in Binh Thuan",
+      "des6": "Hotel in Binh Thuan",
+      "des7": "Resort in Binh Thuan"
     },
     "news": {
       "title": "Binh Thuan News",
@@ -111,5 +119,33 @@
   "sealink": {
     "pageName": "Sealink",
     "title": "Destinations in Sealink!"
+  },
+  "keGaCape": {
+    "pageName": "Ke Ga Cape",
+    "title": "Destinations in Ke Ga Cape!"
+  },
+  "novaworld": {
+    "pageName": "Novaworld Phan Thiet",
+    "title": "Destinations in Novaworld Phan Thiet!"
+  },
+  "centara": {
+    "pageName": "Centara Mirage Resort Mui Ne",
+    "title": "Centara Mirage Resort Mui Ne!"
+  },
+  "homestay": {
+    "pageName": "HomeStay",
+    "title": "HomeStay in Phan Thiet!"
+  },
+  "villa": {
+    "pageName": "Villa",
+    "title": "Villa in Phan Thiet!"
+  },
+  "resort": {
+    "pageName": "Resort",
+    "title": "Resort in Phan Thiet!"
+  },
+  "hotel": {
+    "pageName": "Hotel",
+    "title": "Hotel in Phan Thiet!"
   }
 }
