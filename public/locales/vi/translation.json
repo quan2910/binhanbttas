@@ -16,7 +16,14 @@
     "realEstate": "Bất động sản",
     "traffic": "Giao thông",
     "search": "Tìm kiếm",
-    "info": "Thông tin"
+    "info": "Thông tin",
+    "villa": "Villa",
+    "homestay": "Homestay",
+    "resort": "Resort",
+    "hotel": "Khách sạn",
+    "novaworld": "Novaworld",
+    "centara": "Centara",
+    "kegaCape": "Mũi Kê Gà"
   },
   "main": {
     "appName": "BìnhAnBT",

@@ -62,7 +62,7 @@ const Layout = () => {
       >
         <Button
           variant="ghost"
-          className="bottom-[5%] rounded-full px-3 min-h-[48px] z-10 hover:bg-primary hover:scale-110 transform transition duration-300 ease-in-out bg-primary fixed right-[5%]"
+          className="bottom-[5%] rounded-full lg:min-h-[55px] px-3 min-h-[48px] z-10 hover:bg-primary hover:scale-110 transform transition duration-300 ease-in-out bg-primary fixed right-[5%]"
         >
           <MessengerIcon className="w-6 h-6 lg:w-8 lg:h-8 rounded-full" />
           <span className="block absolute top-0 left-0 bg-black/20 w-full h-full rounded-full animate-ping animate-infinite duration-2000 z-[-1]" />

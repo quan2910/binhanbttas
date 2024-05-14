@@ -4,13 +4,11 @@ import { Button } from "../ui/button";
 import vn from "../../images/flag/vn.png";
 import uk from "../../images/flag/uk.png";
 import ko from "../../images/flag/ko.jpg";
-import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import {
   Select,
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "../ui/select";

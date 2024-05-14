@@ -16,7 +16,14 @@
     "realEstate": "Real Estate",
     "traffic": "Traffic",
     "search": "Search",
-    "info": "Infomation"
+    "info": "Infomation",
+    "villa": "Villa",
+    "homestay": "Homestay",
+    "resort": "Resort",
+    "hotel": "Hotel",
+    "novaworld": "Novaworld",
+    "centara": "Centara",
+    "kegaCape": "Ke Ga Cape"
   },
   "main": {
     "appName": "BinhAnBT",

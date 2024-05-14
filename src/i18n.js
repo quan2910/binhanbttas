@@ -12,5 +12,6 @@ i18n
     fallbackLang: "vi",
     whitelist: ["en", "vi", "kr"],
   });
+i18n.changeLanguage("vi");
 
 export default i18n;

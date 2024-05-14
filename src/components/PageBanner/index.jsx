@@ -36,7 +36,7 @@ const PageBanner = ({ bg, title, isShowLink = false, pageName }) => {
           ))}
         </div>
 
-        <h2 className="heading-5  block xl:hidden w-full text-center text-nowrap font-roboto text-white">
+        <h2 className="heading-5  block xl:hidden w-full text-center font-roboto text-white">
           <strong>{title}</strong>
         </h2>
       </div>
