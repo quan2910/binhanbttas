@@ -39,10 +39,9 @@ const formSchema = z.object({
 
 const AdminHome = () => {
   const [isLoading, setIsLoading] = useState(false);
-  const navigate = useNavigate();
   const currentDate = new Date();
   const [types, setTypes] = useState([]);
-
+  const navigate = useNavigate();
   useEffect(() => {
     const getTypes = async () => {
       const res = await handleGetTypes();
@@ -65,12 +64,14 @@ const AdminHome = () => {
       ...values,
       type: { id: values.type },
     };
+
     const compressedData = JSON.stringify(
       pako.deflate(JSON.stringify(convertData.content))
     );
 
     convertData.content = compressedData;
     setIsLoading(true);
+
     const res = await handleCreateBlogs(convertData);
     if (res) {
       navigate("/admin/list-blog");
