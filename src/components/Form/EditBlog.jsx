@@ -16,7 +16,6 @@ import {
 import { handleCreateBlogs } from "../../services/blogs/blogs.service";
 import { Input } from "../../components/ui/input";
 import { handleGetTypes } from "../../services/type/type.service";
-import pako from "pako";
 import {
   Select,
   SelectContent,
@@ -55,12 +54,6 @@ const EditBlog = ({ id }) => {
     const getBlog = async () => {
       const res = await handleGetBlog(id);
       if (res) {
-        const decompressedData = JSON.parse(
-          pako.inflate(JSON.parse(res.data.content), {
-            to: "string",
-          })
-        );
-        res.data.content = decompressedData;
         setData(res.data);
       }
     };
@@ -85,11 +78,6 @@ const EditBlog = ({ id }) => {
       ...values,
       type: { id: values.type },
     };
-    const compressedData = JSON.stringify(
-      pako.deflate(JSON.stringify(convertData.content))
-    );
-
-    convertData.content = compressedData;
     setIsLoading(true);
     const res = await handleCreateBlogs(convertData);
     if (res) {

@@ -16,7 +16,6 @@ import {
 import { handleCreateBlogs } from "../../services/blogs/blogs.service";
 import { Input } from "../../components/ui/input";
 import { handleGetTypes } from "../../services/type/type.service";
-import pako from "pako";
 import {
   Select,
   SelectContent,
@@ -64,15 +63,10 @@ const AdminHome = () => {
       ...values,
       type: { id: values.type },
     };
-
-    const compressedData = JSON.stringify(
-      pako.deflate(JSON.stringify(convertData.content))
-    );
-
-    convertData.content = compressedData;
     setIsLoading(true);
 
     const res = await handleCreateBlogs(convertData);
+    
     if (res) {
       navigate("/admin/list-blog");
       setIsLoading(false);

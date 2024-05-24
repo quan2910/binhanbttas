@@ -1,13 +1,11 @@
 import SectionLayout from "../components/SectionLayout";
 import React, { useEffect, useState } from "react";
 import bg from "../images/contact/ngt.jpg";
-// import ReactDOM from "react-dom/client";
 import MoreBlog from "../components/BlogDetail/MoreBlog";
 import { Button } from "../components/ui/button";
 import { Link, Navigate } from "react-router-dom";
 import { SOCIAL_MEDIA } from "../components/Footer/data";
 import Marquee from "react-fast-marquee";
-import pako from "pako";
 import {
   Popover,
   PopoverContent,
@@ -43,12 +41,6 @@ const BlogDetails = () => {
     const getBlog = async () => {
       const res = await handleGetBlog(id);
       if (res) {
-        const decompressedData = JSON.parse(
-          pako.inflate(JSON.parse(res.data.content), {
-            to: "string",
-          })
-        );
-        res.data.content = decompressedData;
         setData(res.data);
       } else {
         <Navigate to="*" replace />;
@@ -56,6 +48,7 @@ const BlogDetails = () => {
     };
     getBlog();
   }, [id]);
+  console.log(data);
 
   return (
     <>
