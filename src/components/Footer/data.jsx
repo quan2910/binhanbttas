@@ -11,7 +11,7 @@ export const SOCIAL_MEDIA = [
   },
   {
     id: uuidv4(),
-    href: "https://www.tiktok.com/@binhanbt_review",
+    href: "https://www.tiktok.com/@culaocautour",
     title: "Tiktok",
     icon: tt,
   },
