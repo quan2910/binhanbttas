@@ -29,7 +29,7 @@ const Contact = () => {
           {t("navbar.contact")}
         </h2>
         <div className="flex flex-col gap-1 lg:gap-5">
-          <p className="big lg:heading-5">+84 867 046 286</p>
+          <p className="big lg:heading-5">+84 988 395 111</p>
           <p className="big lg:heading-5">tmdvbinhanbt@gmail.com</p>
           <div className="flex gap-4">
             {SOCIAL_MEDIA.map((item) => (

@@ -96,7 +96,7 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-col">
                   <p className="text-sm font-medium text-text py-2 text-center">
-                    +84 867 046 286
+                    +84 988 395 111
                   </p>
                   <p className="text-sm font-medium text-text py-2 text-center">
                     tmdvbinhanbt@gmail.com

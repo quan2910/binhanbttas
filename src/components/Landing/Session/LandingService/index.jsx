@@ -18,7 +18,7 @@ const LandingService = () => {
         </div>
         <div className="relative flex items-center md:justify-center">
           {/* <div className="left-2/25 w-[2px] relative left-1/10 -translate-x-1/10 h-[450px] xl:h-[810px] bg-line" /> */}
-          <div className="flex flex-col w-full justify-center items-center gap-[55px] md:gap-20">
+          <div className="flex flex-col w-full justify-center items-start md:items-center gap-[55px] md:gap-20">
             {LANDING_SERVICE_DATA.map((item) => (
               <LandingServiceItem
                 key={item.id}

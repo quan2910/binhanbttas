@@ -19,7 +19,7 @@ export const LANDING_SERVICE_DATA = [
     img: img,
     containerClass: "",
     imgClass: "md:order-2",
-    textClass: "md:order-1 items-end",
+    textClass: "md:order-1 md:items-end",
     href: "/tour-guide",
   },
   {
@@ -39,7 +39,7 @@ export const LANDING_SERVICE_DATA = [
     img: img,
     containerClass: "",
     imgClass: "md:order-2",
-    textClass: "md:order-1 items-end",
+    textClass: "md:order-1 md:items-end",
     href: "/villa",
   },
   {
@@ -59,7 +59,7 @@ export const LANDING_SERVICE_DATA = [
     img: img,
     containerClass: "",
     imgClass: "md:order-2",
-    textClass: "md:order-1 items-end",
+    textClass: "md:order-1 md:items-end",
     href: "/hotel",
   },
   {
